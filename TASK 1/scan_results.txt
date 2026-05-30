@@ -1,0 +1,52 @@
+# Nmap 7.99 scan initiated Sat May 30 10:31:26 2026 as: /usr/lib/nmap/nmap -sS -oN scan_results.txt 10.0.2.0/24
+Nmap scan report for 10.0.2.1
+Host is up (0.0036s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+4343/tcp open  unicall
+4449/tcp open  privatewire
+MAC Address: 52:54:00:12:35:00 (QEMU virtual NIC)
+
+Nmap scan report for 10.0.2.2
+Host is up (0.00083s latency).
+All 1000 scanned ports on 10.0.2.2 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 08:00:27:E5:F1:7F (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 10.0.2.3
+Host is up (0.026s latency).
+Not shown: 977 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+8009/tcp open  ajp13
+8180/tcp open  unknown
+MAC Address: 08:00:27:D9:78:8F (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 10.0.2.15
+Host is up.
+All 1000 scanned ports on 10.0.2.15 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+# Nmap done at Sat May 30 10:35:00 2026 -- 256 IP addresses (4 hosts up) scanned in 213.63 seconds
