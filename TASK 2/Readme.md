@@ -119,16 +119,6 @@ All major authentication checks **FAILED**:
 - **Header Analysis**: Examining email metadata to trace origin, relay path, and authentication status.
 ---
  
-## 📸 Screenshots
- 
-| Screenshot | Description |
-|-----------|-------------|
-| `mxtoolbox_analysis.png` | MXToolbox showing all authentication failures |
-| `virustotal_ip.png` | VirusTotal flagging originating IP as malicious |
-| `eml_analyzer_hops.png` | EML Analyzer showing email relay hops |
- 
----
- 
 ## ✅ Conclusion
  
 This email is a **confirmed phishing attempt** targeting Brazilian banking customers. It fails all email authentication checks (SPF, DKIM, DMARC), originates from a flagged cloud VPS IP, hides its true origin, and uses urgent financial language to manipulate victims. No legitimate bank email would exhibit these characteristics.
