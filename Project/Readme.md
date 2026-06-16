@@ -60,6 +60,3 @@ Chart saved to top_ips.png
 
 The script uses a regex to extract timestamps and source IPs from `Failed password` log entries. For each IP, it applies a sliding time-window algorithm: if the number of failed attempts from that IP within any `WINDOW_MINUTES` window reaches `FAILED_THRESHOLD`, the IP is flagged as suspicious. The reported count reflects the IP's total failed attempts across the whole log.
 
-## License
-
-MIT
